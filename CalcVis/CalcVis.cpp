@@ -14,6 +14,7 @@ double readNumber(const std::string& prompt) {
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         }
+
     }
     return x;
 }
